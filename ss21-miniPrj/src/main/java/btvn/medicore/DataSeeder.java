@@ -58,10 +58,10 @@ public class DataSeeder implements CommandLineRunner {
         userRepository.saveAll(List.of(admin, doctor, patient));
 
         System.out.println("=============================================================");
-        System.out.println("✅ HỆ THỐNG MEDICORE API ĐÃ TỰ ĐỘNG BƠM TÀI KHOẢN MẪU:");
-        System.out.println("👉 Tài khoản ADMIN  : admin  | pass: 123456");
-        System.out.println("👉 Tài khoản DOCTOR : doctor | pass: 123456");
-        System.out.println("👉 Tài khoản PATIENT: thanh  | pass: 123456");
+        System.out.println("HỆ THỐNG MEDICORE API ĐÃ TỰ ĐỘNG BƠM TÀI KHOẢN MẪU:");
+        System.out.println("Tài khoản ADMIN  : admin  | pass: 123456");
+        System.out.println("Tài khoản DOCTOR : doctor | pass: 123456");
+        System.out.println("Tài khoản PATIENT: thanh  | pass: 123456");
         System.out.println("=============================================================");
     }
 }
